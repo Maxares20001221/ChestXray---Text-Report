@@ -9,7 +9,7 @@ Dataset: **Indiana University Chest X-ray Collection (IU-CXR)**
 ```bash
 # Step 1: Clone the repository
 $ git clone https://github.com/Maxares20001221/ChestXray---Text-Report.git
-$ cd Chest-Xray-Report-Generation
+$ cd ChestXray---Text-Report
 
 # Step 2: Install dependencies
 
