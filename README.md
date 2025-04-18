@@ -8,11 +8,10 @@ Dataset: **Indiana University Chest X-ray Collection (IU-CXR)**
 ## 🚀 How to Run (via `main.py`)
 ```bash
 # Step 1: Clone the repository
-$ git clone https://github.com/yourusername/Chest-Xray-Report-Generation.git
+$ git clone https://github.com/Maxares20001221/ChestXray---Text-Report.git
 $ cd Chest-Xray-Report-Generation
 
 # Step 2: Install dependencies
-$ pip install -r requirements.txt
 
 # Step 3: Ensure the IU-CXR .tgz files are placed correctly
 # (Edit paths in `DataLoading.py` if needed)
