@@ -64,7 +64,11 @@ class CXRReportGenerator(nn.Module):
 
         outputs = self.gpt(inputs_embeds=gpt_input, labels=labels)
         return outputs.loss, outputs.logits
-
+        
+    def get_model(device="cuda"):
+         model = CXRReportGenerator().to(device)
+         return model
+    
 # Instantiate the model
 model = CXRReportGenerator().to(device)
 print(model)
