@@ -41,7 +41,6 @@ Chest-Xray-Report-Generation/
 ├── Validation_Evaluation.py    # Inference and metric evaluation
 ├── Visualization.py            # Plotting training curves
 ├── main.py                     # Run full pipeline
-├── requirements.txt            # Dependencies
 └── README.md                   # Documentation
 ```
 
@@ -113,6 +112,5 @@ Enhance generation by retrieving similar historical X-ray cases or reports as au
 - Indiana University CXR dataset
 - HuggingFace Transformers
 - torchvision pretrained ResNet
-
 ---
 
