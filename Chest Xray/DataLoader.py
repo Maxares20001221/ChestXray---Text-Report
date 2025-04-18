@@ -66,7 +66,7 @@ def get_dataloaders(data_pairs, batch_size=BATCH_SIZE):
 # Optional debug/test block
 if __name__ == "__main__":
     # Make sure `data_pairs` is defined elsewhere or loaded in for testing
-    from some_module import data_pairs  # ← 替换为实际路径
+    from some_module import data_pairs
     train_dataset, val_dataset, train_loader, val_loader = get_dataloaders(data_pairs)
 
     sample_batch = next(iter(val_loader))
