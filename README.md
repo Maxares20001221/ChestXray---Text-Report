@@ -61,11 +61,7 @@ Performance on 766 validation samples:
 ---
 
 ## 🔧 Requirements
-Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-Or manually ensure:
+Manually ensure:
 ```
 torch
 transformers
